@@ -20,7 +20,8 @@ public class Book {
 	private String publisher;
 	
 	// Constructor
-	public Book(String title, String author, String isbn, String publisher, String publish_date) {
+	public Book(Long id, String title, String author, String isbn, String publisher) {
+		this.id = id;
 		this.title = title;
 		this.author = author;
 		this.isbn = isbn;
